@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="850dp"
+        android:src="@drawable/djrmfndn"
+        android:scaleType="centerCrop"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="690dp"
+        android:layout_margin="20dp"
+        app:cardElevation="500dp"
+        app:cardBackgroundColor="@color/White"
+        app:cardCornerRadius="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/karya"/>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="55dp"
+            android:layout_gravity="center"
+            android:text="Di VokasiLand 2022, Siswa SMK Raden Umar Said Kudus Pamerkan Realitas Virtual ‘Mahakarya Vokasi’"
+            android:textColor="@color/Black"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="345dp"
+            android:layout_marginTop="340dp"
+            android:text="Ada yang menarik dalam event VokasiLand Road To Hakteknas 2022 yang diselenggarakan di Grand City, Surabaya pada Kamis (28/7/2022) hingga Minggu (31/7/2022). Inovasi di bidang animasi dan teknologi digital yang dilakukan para siswa SMK Raden Umar Said (RUS) Kudus berhasil menyita perhatian pengunjung. Para siswa dari sekolah menengah kejuruan binaan Djarum Foundation tersebut, berkolaborasi dengan Politeknik Negeri Batam melahirkan karya bertajuk ‘Mahakarya Vokasi’. Berbasis teknologi virtual reality (VR) atau realitas virtual, karya tersebut mengusung konsep fantasy treasure island di mana terdapat 10 pulau virtual yang berisikan berbagai karya inovasi civitas vokasi. Dari kacamata VR, pengunjung dapat menikmati realitas buatan beresolusi tinggi yang proses pengerjaan audio dan visualnya dilakukan oleh siswa SMK RUS Kudus."
+
+            android:textColor="@color/Black"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="14dp"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

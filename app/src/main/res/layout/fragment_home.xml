@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="850dp"
+            android:src="@drawable/djrmfndn"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="Berita Terkini"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/Black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="335dp"
+            android:layout_marginTop="80dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardBreaking1"
+                android:layout_width="350dp"
+                android:layout_height="235dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/karya"
+                    android:background="@color/White"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:text="Teknologi virtual reality (VR) dengan konsep fantasy treasure island karya inovasi civitas vokasi siswa SMU Raden Umar Said Kudus yang menyita pengunjung VokasiLand Road To Hakteknas 2022 yang diselenggarakan di Grand City, Surabaya.
+                Artikel ini telah tayang di Surya.co.id dengan judul Di VokasiLand 2022, Siswa SMK Raden Umar Said Kudus Pamerkan Realitas Virtual ‘Mahakarya Vokasi’, https://surabaya.tribunnews.com/2022/08/02/di-vokasiland-2022-siswa-smk-raden-umar-said-kudus-pamerkan-realitas-virtual-mahakarya-vokasi.
+                Penulis: Wiwit Purwanto | Editor: Cak Sur"
+                android:textStyle="bold"
+                android:textColor="@color/Black"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="335dp"
+            android:layout_marginTop="400dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardBreaking2"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lombajerman"
+                    android:background="@color/White"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:text="Sejumlah pengunjung tampak kagum oleh animasi buatan mereka yang ternyata masih duduk di bangku SMK ini. Ya, mereka memang para pelajar yang khusus mendalami bidang seni animasi dari SMK Raden Umar Said (RUS) di Kudus, Jawa Tengah.
+                Salah satu pelajar yang sempat DW wawancarai yakni Gandrung Sanghyangraya, 16, dengan cekatan memainkan mouse yang terhubung ke sebuah komputer dan mengutak-atik gambar animasi setengah jadi. Selain DW Indonesia, terlihat beberapa orang juga sempat mewawancarai mereka."
+                android:textAlignment="center"
+                android:textColor="@color/White"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

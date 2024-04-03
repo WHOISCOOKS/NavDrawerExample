@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="850dp"
+        android:src="@drawable/djrmfndn"
+        android:scaleType="centerCrop"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="730dp"
+        android:layout_margin="20dp"
+        app:cardElevation="500dp"
+        app:cardBackgroundColor="@color/White"
+        app:cardCornerRadius="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/lombajerman"/>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="85dp"
+            android:layout_gravity="center"
+            android:text="Tiga Pelajar SMK Kudus Pamer Keahlian Animasi di Jerman"
+            android:textColor="@color/Black"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="445dp"
+            android:layout_marginTop="330dp"
+            android:text="Ada yang tidak biasa di salah satu stan di paviliun Indonesia di Hannover Messe tahun ini. Di stan tersebut tiga orang yang tampak sangat belia terlihat tengah asyik menggambar desain animasi di komputer masing-masing. Para pengunjung bisa melihat desain yang sedang mereka buat lewat layar besar yang ada di depannya. Sejumlah pengunjung tampak kagum oleh animasi buatan mereka yang ternyata masih duduk di bangku SMK ini. Ya, mereka memang para pelajar yang khusus mendalami bidang seni animasi dari SMK Raden Umar Said (RUS) di Kudus, Jawa Tengah. Salah satu pelajar yang sempat DW wawancarai yakni Gandrung Sanghyangraya, 16, dengan cekatan memainkan mouse yang terhubung ke sebuah komputer dan mengutak-atik gambar animasi setengah jadi. Selain DW Indonesia, terlihat beberapa orang juga sempat mewawancarai mereka. Di usia yang sangat belia, para pelajar dari SMK RUS memang dikenal telah meraih berbagai penghargaan di bidang animasi, baik di Indonesia maupun di luar negeri. Sebut saja Muhammad Ali Azka, 17. Pelajar kelas 12 ini terlibat dalam total 8 proyek, mulai dari iklan layanan masyarakat hingga program berseri dari Australia. Pelajar lain yakni Windiastanti Dawolo, 17, atau yang biasa dipanggil Windi. Ia pun banyak terlibat dalam pengerjaan sejumlah proyek, antara lain di program Sofa Kuning di Mola TV dan video animasi untuk lagu penyanyi Once Mekel yang berjudul Ditentukan Untuk Bersama. Demikian pula dengan Gandrung Sanghyangraya yang ikut mengerjakan proyek Sofa Kuning. Selain itu ia terlibat di proyek di YouTube dan seri animasi dari Irlandia. "
+            android:textColor="@color/Black"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="14dp"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+</FrameLayout>
